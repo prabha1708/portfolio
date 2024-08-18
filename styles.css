@@ -1,0 +1,167 @@
+body{
+  margin: 0.5;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:#ffffff;
+  color: Black;
+}
+#home,pre{
+  font-family: "DM Serif Text", serif;
+  font-size: 25px;
+}
+header {
+  background-color: #cee3f3;
+  color: Black;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid ;
+  font-size: 30px;
+}
+
+header img {
+  border-radius: 100%;
+background-color:rgb(40, 37, 37);
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+  border-bottom: 2px solid ;
+}
+
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#about img {
+  border-radius: 50%;
+background-color:red;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+#skills {
+  width: 80%;
+  margin-top: 20px;
+}
+
+.skill {
+  margin: 15px 0;
+}
+
+.skill-name {
+  
+  margin-bottom: 5px;
+}
+
+.skill-bar {
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.skill-bar-fill {
+  height: 20px;
+  background-color: rgb(17, 17, 21);
+  text-align: right;
+  padding-right: 10px;
+  line-height: 20px;
+  color: rgb(22, 2, 2);
+  border-radius: 20px;
+}
+
+#projects {
+  padding: 40px 0;
+}
+
+#projects .project-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#projects .project {
+  background: #cee3f3;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 30%;
+}
+
+#projects .project img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+#projects .project h3 {
+  margin: 15px 0;
+}
+
+#projects .project a {
+  color: rgb(31, 31, 40);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  background-color: rgb(161, 200, 239);
+  color: black;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+form input, form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+button{
+  height:30px;
+  background-color: rgb(143, 185, 220);
+  border-radius: 50px;
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}

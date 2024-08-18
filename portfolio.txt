@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./styles.css">   
+</head>
+<body>
+
+    <header>
+        <div>
+            <img src="./images/download.png" alt="Your Name Header Photo">
+        </div>
+        <div>
+            <h1>Prabha Palepu</h1>
+            <p>Student at <b>@VIGNAN UNIVERSITY</b></p>
+            <nav>
+                <ul>
+                    <li><a href="#home"><u>Home</u></a></li>
+                    <li><a href="#about"><u>About</u></a></li>
+                    <li><a href="#projects"><u>Projects</u></a></li>
+                    <li><a href="#contact"><u>Contact</u></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to My Portfolio!</h2>
+        <pre>
+        I'm Prabha Palepu, a computer science student at <b>VIGNAN UNIVERSITY,GUNTUR,ANDRA PRADESH</b> passionate about 
+	building innovative software solutions.
+	This is my space to showcase my projects, experiments, and learnings as I navigate the world of tech.
+	Explore my portfolio to see what I've been working on projects and my skills. 
+	I'm excited to share my journey with you and learn from others in the tech community. 
+	Let's connect and grow together!
+</pre>
+    </section>
+
+    <section id="about">
+        <div>
+            <img src="https://i.pinimg.com/originals/25/48/31/25483183a26a96adcc2b5a4002eda6ca.jpg" alt="Your Name Profile Photo">
+        </div>
+        <div>
+            <h2><u>About Me</u></h2>
+            <pre>
+Hi, I'm Prabha Palepu, a computer science student at Vignan University, Guntur, Andhra Pradesh.
+ I'm passionate about building innovative software solutions that make a difference.
+ This space is where I showcase my projects, experiments, and learnings as I navigate the exciting world of tech.
+  Let's connect and grow together!
+</pre>
+
+            <h3><u>Education</u></h3>
+	  <pre>
+                <li>Tenth at Manasa English Medium High School</li>
+                <li>Intermeditae at sasi Junior College</li>
+                <li>Bachelor's in Computer Science (Currently pursuing) at VIGNAN UNIVERSITY</li>
+            
+	</pre>
+            <h3><u>Professional Interests</u></h3>
+            <pre>I am interested in web development, coding, UI/UX design with Sketch, and machine learning applications in web platforms.
+</pre>
+        </div>
+	</section>
+
+<section>
+        <div id="skills">
+            <h3>Skills</h3>
+            <div class="skill">
+                <div class="skill-name">HTML</div>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 95%;">%95</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-name">CSS</div>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 70%;">70%</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-name">Java</div>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 50%;">50%</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-name">c++</div>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 25%;">25%</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-name">Python</div>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 70%;">70%</div>
+                </div>
+
+
+            <div class="skill">
+                <div class="skill-name">C</div>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 85%;">85%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="projects">
+        <div class="container">
+            <h2><u>Projects</u></h2>
+            <div class="project-list">
+                <div class="project">
+		    <h3>Project-1:Lung cancer detection</h3>
+                    <img src="https://user-images.githubusercontent.com/68781375/162584408-450580c0-3354-470b-a69c-180a19802fd4.jpg" alt="Project 1">
+                    <p>Create a system that uses machine learning algorithms and user data . Lung cancer detection is a crucial aspect of diagnosing and treating one of the most common and deadly forms of cancer worldwide. Early detection significantly improves survival rates, as treatment options are more effective in the early stages. However, detecting lung cancer early can be challenging due to its subtle symptoms, which often resemble those of less severe conditions.</p>
+                <a href="link-to-live-demo-or-repository">View Project</a>
+                </div>
+                <div class="project">
+		    <h3>Project-2:Rainfall Prediction</h3>
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.572jGAY-dzzxplSWfAEjWwAAAA&pid=Api&P=0&h=180" alt="Project 3">
+                    <p>Rainfall prediction involves forecasting the amount, intensity, and timing of rain in a specific area. Accurate rainfall prediction is crucial for sectors like agriculture, disaster management, water resource planning, and daily life activities.</p>
+                    <a href="link-to-live-demo-or-repository">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2><u>Contact Me</u></h2>
+        <form action="submit-form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+        <div class="contact-links">
+            <h2><b>You can also reach me at:</b></h2>
+            <a href="mailto:221fa04660@gmail.com"><u>E-MAIL</u>:221fa04660@gmail.com</a></div>
+    <footer>
+        <p>&copy; 2024 Prabha Palepu| All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
