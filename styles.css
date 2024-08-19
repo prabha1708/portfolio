@@ -84,11 +84,11 @@ background-color:red;
 
 .skill-bar-fill {
   height: 20px;
-  background-color: rgb(17, 17, 21);
+  background-color:  rgb(177, 216, 237);
   text-align: right;
   padding-right: 10px;
   line-height: 20px;
-  color: rgb(22, 2, 2);
+  color: rgb(33, 38, 40);
   border-radius: 20px;
 }
 
